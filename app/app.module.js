@@ -7,7 +7,7 @@ import uiBootstrap from 'angular-ui-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // modules
-import ModuleIndex from './modules/modules.index';
+import ModuleIndex from './modules/index.modules';
 
 // Application Specific
 import routing from './app.route';

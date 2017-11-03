@@ -4,6 +4,6 @@ import controller from './home.controller';
 const homeComponent = {
   template,
   controller,
-  controllerAs: homeCtrl
+  controllerAs: 'homeCtrl'
 };
 export default homeComponent;
