@@ -1,0 +1,115 @@
+// //Padding mixin
+// @mixin padding($top, $right, $bottom, $left) {
+//   padding: $top $right $bottom $left;
+// }
+// //Margin mixin
+// @mixin margin($top, $right, $bottom, $left) {
+//   margin: $top $right $bottom $left;
+// }
+// // Center Position
+// @mixin centered-positon {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   -webkit-transform: translate(-50%,-50%);
+//   -ms-transform: translate(-50%,-50%);
+//   transform: translate(-50%,-50%);
+// }
+// // Navigation Button Style
+// @mixin nav-button {
+//   display: block;
+//   text-decoration: none;
+//   padding: 1.5em;
+//   border: 2px solid #ddd;
+//   border-radius: 15px 50px;
+//   margin: 1em;
+//
+//   &:active {
+//     border: 2px solid $teal;
+//   }
+// }
+// // Navigation Title
+// @mixin nav-title {
+//   text-align: center;
+//   font-family: "Helvetica";
+//   font-size: 1.5em;
+//   color: $black;
+//   margin: 0.5em 0;
+// }
+// @mixin nav-sub-title {
+//   text-align: center;
+//   font-family: "Helvetica";
+//   font-size: 1.2em;
+//   margin: 0.5em 0;
+//   color: rgba(87,88,89,0.8);
+// }
+// // Page Headings
+// @mixin page-heading {
+//   padding-top: 0.3em;
+//   font-family: "Helvetica";
+//   text-align: center;
+//   font-size: 3em;
+//   margin: 0.2em 0;
+//   color: $teal;
+// }
+// //Icon Container
+// @mixin icon-container {
+//   width: 50%;
+//   padding-top: 50%;
+//   border: 1px solid #eee;
+//   background-color: $white;
+//   background-image: linear-gradient($white, #ddd);
+//   border-radius: 50%;
+//   font-size: 2.5em;
+//   color: $black;
+//   position: relative;
+//   margin: 0 auto;
+//
+//   .ico {
+//     @include centered-positon;
+//   }
+// }
+// $rzslider-height: 15px; //variable for media query
+// $small-screen-width: 1025px;
+// $small-screen-height: 961px;
+// $smallest-screen-height: 769px;
+// @mixin border-radius($topLeft, $topRight, $bottomRight, $bottomLeft) {
+//   -webkit-border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+//   -moz-border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+//   -ms-border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+//   border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+// }
+// @mixin border-radius-circle {
+//   -webkit-border-radius: 50%;
+//   -moz-border-radius: 50%;
+//   -ms-border-radius: 50%;
+//   border-radius: 50%;
+// }
+// @mixin border($thickerness, $colour) {
+//   border: $thickerness $colour solid;
+// }
+// @mixin border-left($thickerness, $colour) {
+//   border-left: $thickerness $colour solid;
+// }
+// @mixin border-right($thickerness, $colour) {
+//   border-right: $thickerness $colour solid;
+// }
+// @mixin border-top($thickerness, $colour) {
+//   border-top: $thickerness $colour solid;
+// }
+// @mixin border-bottom($thickerness, $colour) {
+//   border-bottom: $thickerness $colour solid;
+// }
+// @mixin box-shadow($h-shadow, $v-shadow, $blur, $spread, $opacity) {
+//   box-shadow: $h-shadow $v-shadow $blur $spread rgba(55, 55, 55, $opacity);
+// }
+// @mixin box-shadow-inset($h-shadow, $v-shadow, $blur, $spread, $opacity) {
+//   box-shadow: $h-shadow $v-shadow $blur $spread rgba(55, 55, 55, $opacity) inset;
+// }
+// @mixin vertical-align {
+//   position: absolute;
+//   top: 50%;
+//   -webkit-transform: translateY(-50%);
+//   -ms-transform: translateY(-50%);
+//   transform: translateY(-50%);
+// }

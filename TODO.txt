@@ -1,0 +1,4 @@
+1. Component controller
+2. Global Styles & Component Styles
+3. Dist Minification [html \ js\ css]
+4. Source Maps - Development
