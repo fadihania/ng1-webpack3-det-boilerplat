@@ -2,7 +2,7 @@ class HomeController {
   /*@ngInject*/
   constructor($scope, $state, appService, homeService) {
     this.homeVar = 'This text is from home controller';
-    this.homeService = HomeService;
+    this.homeService = homeService;
     this.sampleData = this.homeService.getAllData();
   }
 }
